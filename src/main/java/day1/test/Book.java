@@ -38,4 +38,16 @@ public class Book implements Comparable<Book>{
     public int compareTo(Book o) {
         return title.compareTo(o.title);
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public Cover getCover() {
+        return cover;
+    }
 }

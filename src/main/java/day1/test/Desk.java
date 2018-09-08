@@ -11,14 +11,6 @@ public class Desk {
         list.add(book);
     }
 
-    public void removeBook(Book book) throws BookNotExistOnTheDesk {
-        if(list.contains(book)) {
-            list.remove(book);
-        } else {
-            throw new BookNotExistOnTheDesk();
-        }
-    }
-
     public String getBooks() {
         String res = "";
         Collections.sort(list);
@@ -26,5 +18,18 @@ public class Desk {
             res = res + b +"\n";
         }
         return res;
+    }
+
+
+
+
+
+
+    public void removeBook(Book book) throws BookNotExistOnTheDesk {
+        if(list.contains(book)) {
+            list.remove(book);
+        } else {
+            throw new BookNotExistOnTheDesk();
+        }
     }
 }
