@@ -1,7 +1,5 @@
 package day1.person;
 
-
-
 public enum Gender {
     MALE("chłopczyk"),
     FEMALE("dziewczynka");

@@ -66,5 +66,8 @@ public class Main {
         System.out.println(main.testInt(3));
         main.shortIf(6);
         main.sample2();
+
+        PseudoGender pseudoGender = PseudoGender.FEMALE;
+        System.out.println(pseudoGender.getGender());
     }
 }
