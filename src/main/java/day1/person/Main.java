@@ -69,5 +69,24 @@ public class Main {
 
         PseudoGender pseudoGender = PseudoGender.FEMALE;
         System.out.println(pseudoGender.getGender());
+        System.out.println("*********");
+        Gender2 gender1 = Gender2.getInstance();
+        Gender2 gender2 = Gender2.getInstance();
+        gender1.setName("David");
+        gender2.setName("Pawel");
+        System.out.println(gender1.getName() + ":" + gender2.getName());
+
+        Person person1 = new Person();
+        Person person2 = new Person();
+        person1.setFirstName("Gavid");
+        person2.setFirstName("Tomek");
+        System.out.println(person1.getFirstName() + ":" + person2.getFirstName());
+        System.out.println("********");
+        System.out.println(gender1.equals(gender2));
+        System.out.println(gender1 == gender2);
+        System.out.println("*********");
+        System.out.println(person1.equals(person2));
+        System.out.println(person1 == person2);
+
     }
 }

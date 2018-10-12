@@ -1,5 +1,6 @@
 package day2.zadania;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -9,6 +10,7 @@ public class FooClassTest {
     public void intToBinaryStringTest1() {
         FooClass fooClass = new FooClass();
         assertEquals("100000", fooClass.intToBinaryString(32));
+
     }
 
     @Test

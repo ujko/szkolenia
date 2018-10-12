@@ -10,11 +10,11 @@ import java.util.function.Function;
 
 public class Main {
     public static void main(String[] args) {
-//        new Main().sample();
+//        new Wrapper().sample();
 //        System.out.println("**********************");
-//        new Main().sampleLambda();
-//        new Main().printList();
-        //new Main().printEmployees();
+//        new Wrapper().sampleLambda();
+//        new Wrapper().printList();
+        //new Wrapper().printEmployees();
         Main main = new Main();
         //main.sortEmployees(main.createlist());
         main.sortEmployeesByAge(EmployeesDao.createlist());

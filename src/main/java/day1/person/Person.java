@@ -50,23 +50,23 @@ public class Person implements Comparable<Person> {
         this.lastName = lastName;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (o == null) {
-            return false;
-        }
-        Person person = (Person) o;
-        if (age != person.age) {
-            return false;
-        }
-        if (!lastName.equals(person.lastName)) {
-            return false;
-        }
-        if (!firstName.equals(person.firstName)) {
-            return false;
-        }
-        return true;
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (o == null) {
+//            return false;
+//        }
+//        Person person = (Person) o;
+//        if (age != person.age) {
+//            return false;
+//        }
+//        if (!lastName.equals(person.lastName)) {
+//            return false;
+//        }
+//        if (!firstName.equals(person.firstName)) {
+//            return false;
+//        }
+//        return true;
+//    }
 
 //    @Override
 //    public boolean equals(Object o) {
