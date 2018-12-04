@@ -10,7 +10,7 @@ public class Main {
         System.out.println(person1.equals(person2));
         System.out.println(person1.equals(person3));
         System.out.println(person1.equals(person4));
-        //Test działania
+        //Checksum działania
         assertEquals(person1.equals(person2), false);
         //toString
         System.out.println(person1);
